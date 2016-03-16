@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/Homework/Hwk(Week2)/css/main.css"/>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div class="all">
+    <header>
+        <img class="logo" src="/Homework/Hwk(Week2)/img/logo.png"/>
+        <img class="btn_facebook" src="/Homework/Hwk(Week2)/img/btn_facebook.png"/>
+        <img class="btn_twitter" src="/Homework/Hwk(Week2)/img/btn_twitter.png"/>
+        <img class="btn_google" src="/Homework/Hwk(Week2)/img/btn_google_plus.png"/>
+
+        <nav class="allbox">
+        <p class="word">Home</p>
+        <p class="word">About Us</p>
+        <p class="word">Services</p>
+        <p class="word">Portfolio</p>
+        <p class="word">Contact</p>
+        </nav>
+    </header>
+
+    <article>
+      <section>
+        <img class="bg_sliderbox" src="/Homework/Hwk(Week2)/img/bg_sliderbox.png"/>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="allbox artbox">
+            <p class="word">Services</p>
+        </div>
+        <div class="allbox artbox2">
+            <p class="word">Portfolio</p>
+        </div>
+        <div class="allbox artbox2">
+            <p class="word">Testimonials</p>
+        </div>
+        <div class="art_services">
+            <img class="ic_webdesign" src="/Homework/Hwk(Week2)/img/ic_services_webdesign.png"/>
+                <div class="allbox artbox3">
+                    <p class="box3word">Web Design</p>
+                </div>
+            <img class="ic_webdesign" src="/Homework/Hwk(Week2)/img/ic_services_webdevelopment.png"/>
+                <div class="allbox artbox3">
+                    <p class="box3word">Web Development</p>
+                </div>
+            <img class="ic_webdesign" src="/Homework/Hwk(Week2)/img/ic_services_bulksms.png"/>
+                <div class="allbox artbox3">
+                    <p class="box3word">Bulk SMS</p>
+                </div>
+        </div>
+        <div class="art_portfolio">
+            <img class="bg_portfolio" src="/Homework/Hwk(Week2)/img/bg_portfolio_galleryboxes_1.png"/>
+            <img class="bg_portfolio" src="/Homework/Hwk(Week2)/img/bg_portfolio_galleryboxes_2.png"/>
+            <img class="bg_portfolio" src="/Homework/Hwk(Week2)/img/bg_portfolio_galleryboxes_3.png"/>
+            <img class="bg_portfolio" src="/Homework/Hwk(Week2)/img/bg_portfolio_galleryboxes_4.png"/>
+            <img class="bg_portfolio" src="/Homework/Hwk(Week2)/img/bg_portfolio_galleryboxes_5.png"/>
+            <img class="bg_portfolio" src="/Homework/Hwk(Week2)/img//bg_portfolio_galleryboxes_6.png"/>
+        </div>
+          <div class="artbox4 allbox">
+            <p class="box4word">Front end development, also known as client side
+                development is the practice of producing HTML,
+                CSS and JavaScript for a website or web
+                application so that a user can see and interact
+                with them directly.</p>
+          </div>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="artbox5 allbox">
+
+            <p class="word">Our Blog</p>
+
+        </div>
+
+        <div class="artbox6 allbox">
+
+            <p class="word">Latest Tweet</p>
+
+        </div>
+
+        <div class="pictures">
+
+            <div class="art_picture allbox">
+                <img class="bg_ourblog" src="/Homework/Hwk(Week2)/img/bg_ourblog_thumbnail.png"/>
+                <p class="blog_word1">Beautiful Flower photography</p>
+                <p class="blog_word2">Yogesh / Photography / 24 Feb</p>
+            </div>
+
+            <div class="art_picture allbox">
+                <img class="bg_ourblog" src="/Homework/Hwk(Week2)/img/bg_ourblog_thumbnail.png"/>
+                <p class="blog_word1">Beautiful Flower photography</p>
+                <p class="blog_word2">Yogesh / Photography / 24 Feb</p>
+            </div>
+            <div class="art_picture allbox">
+                <img class="bg_ourblog" src="/Homework/Hwk(Week2)/img/bg_ourblog_thumbnail.png"/>
+                <p class="blog_word1">Beautiful Flower photography</p>
+                <p class="blog_word2">Yogesh / Photography / 24 Feb</p>
+            </div>
+        </div>
+
+        <div class="artbox7 allbox">
+            <p class="latest_word1">@wedesignpixel <span>How are you mate?</span></p>
+            <div class="line"></div>
+            <p class="latest_word2">10 Beautiful IOS icons</p>
+            <p class="latest_word3"><span class="link">http://iconmonstr.com/collections/</span>@uidesigner</p>
+            <div class="line2"></div>
+            <p class="latest_word1">@acrisdesign  <span>Thanks you follow Us!</span></p>
+            <div class="line"></div>
+            <p class="latest_word2">10 Beautiful IOS icons</p>
+            <p class="latest_word3"><span class="link">http://iconmonstr.com/collections/</span>@uidesigner</p>
+        </div>
+      </section>
+    </article>
+    <footer class="End_footer">
+        <p class="footer1">Copyrights 2016 NTUT csie</p>
+        <p class="footer2">Design By font-end</p>
+    </footer>
+  </div>
+</body>
+</html>
