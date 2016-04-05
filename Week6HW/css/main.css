@@ -1,9 +1,11 @@
 html {
-	background-col:
+	  background-image: url('https://raw.githubusercontent.com/joechan1208/JoeHtml/master/Week6HW/img/background3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 body {
-	padding: 0;
-	margin: 0;
+  position: relative;
+  margin: 0px auto;
 }
 * {
   font-size: 0;
@@ -20,7 +22,7 @@ header {
 }
 
 .logo {
-	width: 250px;
+	width: 400px;
 	height: 100px;
 	margin-left: 45px;
 	margin-top: 21px;
@@ -49,7 +51,7 @@ header {
 	color: white;
 }
 .main_img{
-  background-image:url('/css/F2E-Course-master/F2E-Course-master/Week6HW/img/投票.jpg');
+  background-image:url('https://raw.githubusercontent.com/joechan1208/JoeHtml/master/Week6HW/img/%E6%8A%95%E7%A5%A8.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 576px;
@@ -57,7 +59,7 @@ header {
 .top1_img_script{
   padding-top: 150px;
 	margin: 0;
-	margin-left: 200px;
+	margin-left: 90px;
 	color: black;
 	font-family: "Futura-CondensedExtraBold";
 }
@@ -68,4 +70,153 @@ header {
 .top1_song_name{
   font-size: 48px;
   display: inline;
+}
+
+.top4song{
+  float: left;
+  display: inline;
+  margin-left: 195px;
+}
+
+.song_pic{
+ width: 270px;
+ height: 250px;
+ margin-top: 58px;
+ margin-right: 70px;
+ box-sizing: border-box;
+ border-radius: 5px;
+}
+
+.hitsong1 button{
+    display: inline;
+    margin-top: 17px;
+    margin-left: 195px;
+    height: 45px;
+    border: none;
+    background-color: black;
+  text-align: left;
+  float:left;
+}
+
+.hitsong1 p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  float:left;
+}
+
+.hitsong2 button{
+  float: left;
+  display: inline;
+  margin-top: 17px;
+  margin-left: 140px;
+  height: 45px;
+  border: none;
+  background-color: black;
+}
+
+.hitsong2 p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+.hitsong3 button{
+  float: left;
+  display: inline;
+  margin-top: 17px;
+  margin-left: 140px;
+  height: 45px;
+  border: none;
+  background-color: black;
+}
+
+.hitsong3 p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+.boards{
+  display: inline;
+}
+
+.board_pic{
+ width: 640px;
+ height: 400px;
+ box-sizing: border-box;
+ border-radius: 5px;
+}
+
+.End_footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0px auto;
+  background-color:black;
+  float: left;
+}
+
+.footer1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: fe7701;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  padding-left: 100px;
+  float: left;
+  color: #fe7701;
+}
+
+.footer2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: fe7701;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: right;
+  ;
+  padding-right: 295px;
+  color: #fe7701;
+}
+.btn_facebook {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  float:right;
+}
+
+.btn_twitter {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+ float:right;
+}
+
+.btn_ist {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  float:right;
+}
+.btn_youtube {
+  width: 50px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  float:right;
 }
